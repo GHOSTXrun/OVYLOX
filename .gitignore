@@ -1,0 +1,7 @@
+node_modules/
+.sites-runtime/
+.openai/source-repository.json
+.local/
+*.log
+dist/
+.openai/hosting.json

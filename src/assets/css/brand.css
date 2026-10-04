@@ -1,0 +1,4 @@
+/* Original OVYLOX art is reused in every character slot. */
+.ovylox-mark{vertical-align:middle;image-rendering:pixelated}
+.emo.ovy-icon{position:relative;background-image:none}
+.ovy-sprite{position:absolute;display:block;background-image:var(--ovylox-sheet);background-repeat:no-repeat;image-rendering:pixelated}
