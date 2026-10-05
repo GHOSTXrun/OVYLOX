@@ -2,3 +2,11 @@
 .ovylox-mark{vertical-align:middle;image-rendering:pixelated}
 .emo.ovy-icon{position:relative;background-image:none}
 .ovy-sprite{position:absolute;display:block;background-image:var(--ovylox-sheet);background-repeat:no-repeat;image-rendering:pixelated}
+
+/* Prominent official contract area; the address remains unannounced. */
+.side-ca{padding:18px 14px;border:2px solid var(--accent);border-radius:16px;background:var(--accent-soft);box-shadow:0 0 0 4px var(--accent-shadow)}
+.side-ca::before{content:"OFFICIAL CA";display:block;font:700 12px/1.4 var(--font);letter-spacing:.1em;color:var(--accent-text);margin-bottom:8px}
+.side-ca .side-ca-label{display:block;font-family:var(--font-px);font-size:32px;line-height:1.15;color:var(--ink)}
+.side-ca .sub{display:block;margin:12px 0 14px;padding:12px 10px;border:1px dashed var(--accent);border-radius:10px;background:var(--panel);color:var(--accent-text);font-size:19px;font-weight:800;line-height:1.4;overflow-wrap:anywhere}
+.side-ca .contract-copy{display:block;width:100%;margin:12px 0;padding:12px 8px;border:1px solid var(--accent);border-radius:10px;background:var(--panel);color:var(--accent-text);font-size:17px;font-weight:700;overflow-wrap:anywhere}
+.side-ca .btn{margin-top:6px}
