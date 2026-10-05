@@ -17,9 +17,13 @@
 
 <script>try{var p=JSON.parse(localStorage.getItem('ovylox:prefs')||'{}');document.documentElement.dataset.theme=p.theme==='light'?'light':'dark'}catch{}</script>
 <link rel="stylesheet" href="./assets/app.css">
+<style>
+.official-twitter-button{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:50;display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border:1px solid #8ecfff;border-radius:999px;background:#0866b9;color:#fff;font:700 15px/1.2 system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 24px #0005}.official-twitter-button:hover{background:#07579e}.official-twitter-button:focus-visible{outline:3px solid #fff;outline-offset:3px}body{padding-bottom:80px}
+</style>
 </head>
 <body>
 <div id="app"></div>
+<a class="official-twitter-button" href="https://x.com/OVYLOXWorld" target="_blank" rel="noopener noreferrer" aria-label="Follow OVYLOX on Twitter / X (opens in a new tab)"><svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M12.6 1.5h2.4L9.9 7.1 15.8 15h-4.6l-3.6-4.7L3.4 15H1l5.4-6L1 1.5h4.7l3.2 4.3zM11.7 13.6h1.3L4.9 2.8H3.5z"/></svg><span>Twitter / X</span></a>
 <noscript><div style="padding:40px;text-align:center;font-family:system-ui"><h1>OVYLOX</h1><p>Enable JavaScript to hatch, customize and download your character.</p></div></noscript>
 <script src="./assets/wallet.js"></script>
 <script defer src="./assets/app.js"></script>
